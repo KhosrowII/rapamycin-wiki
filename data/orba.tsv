@@ -1,0 +1,161 @@
+Treatment	Dose	Username	Median Lifespan	Animals Tested	Replicate Populations	Median Lifespan (Control)	Animals Tested (Control)	Replicate Populations (Control)	% Change in Median Lifespan	Logrank	p-Value	Temp (C)
+Z-Ligustilide	50uM	Contender	17.8	77	3	17.8	53	3	0	0.443	20
+Xylose	50uM	Anonymous	19.9	101	6	15.8	113	6	25.9	< .001	20
+xanthine	50uM	Ferdinando.randisi	17.8	50	3	17.8	53	3	0	0.419	20
+VX-222 (VCH-222, Lomibuvir)	10uM	beng	14.9	53	3	17	34	3	-12.4	0.124	20
+Venlafaxine	50uM	Anonymous	17	62	5	18.8	60	5	-9.6	0.589	20
+Vanillin	50uM	LinusPetersson	19.9	37	2	17.8	53	3	11.8	0.017	20
+Valsartan	50uM	Ryan Brashear MD	17.8	57	3	17.8	49	3	0	0.205	20
+UTP, Trisodium Salt	50uM	Flatlander Woman	17	48	3	16.5	45	4	3	0.656	20
+Torsemide	50uM	Anonymous	15.8	91	6	15.8	113	6	0	0.265	20
+Thymidine	50uM	Singularity	18.8	58	3	17.8	53	3	5.6	0.012	20
+Tetracaine HCl	10uM	Anonymous	13.1	89	4	13.1	71	4	0	0.27	20
+Terazosin HCl	50uM	adssx	16	50	3	16.5	60	4	-3	0.29	20
+Temsirolimus	10uM	Rapamycin Longevity Lab	17	49	3	17	60	3	0	0.501	20
+Telmisattan	10uM	adssx	17	57	3	17	60	3	0	0.903	20
+Taurine	50uM	Ray Melissa	16	35	3	14.9	43	3	7.4	0.166	20
+Tadalafil	50uM	Anonymous	15.9	55	3	17.8	54	3	-10.7	0.797	20
+Sulforaphane	50uM	Anonymous	20	113	6	14	88	6	42.9	< .001	20
+Spermidine trihydrochloride	50uM	Carl Lumma	19.7	55	5	17.3	52	5	13.9	0.185	20
+Sitagliptin	50uM	adssx	17.5	49	3	16.5	60	4	6.1	0.908	20
+Scopolamine butylbromide	50uM	Max Unfried	15.9	69	3	17.8	53	3	-10.7	0.299	20
+Rosuvastatin	50uM	RXB	18.3	40	3	17.8	54	3	2.8	0.987	20
+Ridaforalimus	10uM	Rapamycin Longevity Lab	17	50	3	17	60	3	0	0.823	20
+Resveratrol	50uM	The.Cole	18.8	60	3	17.8	54	3	5.6	0.761	20
+Rapamycin (Sirolimus)	15uM	Mr Wormboto	17	74	3	17	60	3	0	0.795	20
+Rapamycin (Sirolimus)	15uM	Brice	17	58	3	17	60	3	0	0.996	20
+Rapamycin (Sirolimus)	15uM	Mr Wormboto	17	74	3	17	60	3	0	0.795	20
+Rapamycin (Sirolimus)	15uM	Brice	17	58	3	17	60	3	0	0.996	20
+Rapamycin (Sirolimus)	15uM	Mr Wormboto	17	74	3	17	60	3	0	0.795	20
+Rapamycin (Sirolimus)	15uM	Brice	17	58	3	17	60	3	0	0.996	20
+Rapamycin (Sirolimus)	15uM	Rapamycin Longevity Lab	15.9	53	3	17	60	3	-6.5	0.9	20
+Rapamycin (Sirolimus)	15uM	Rapamycin Longevity Lab	15.9	53	3	17	60	3	-6.5	0.9	20
+Rapamycin (Sirolimus)	15uM	Rapamycin Longevity Lab	15.9	53	3	17	60	3	-6.5	0.9	20
+Quercetin	50uM	Anonymous	18.9	43	3	17.8	53	3	6.2	0.02	20
+Puromycin dihydrochloride	50uM	The Macrobian	18.9	49	3	17.8	53	3	6.2	0.064	20
+Punicalagin	50uM	Contender	20.8	45	3	17.8	53	3	16.9	< .001	20
+Pterostilbene	50uM	Anonymous	14.8	44	3	17.8	53	3	-16.9	0.012	20
+Prednisone	50uM	Spudnut	17.8	68	3	17.8	53	3	0	0.74	20
+Pramiracetam	50uM	Beth1708	18.9	88	6	15.8	113	6	19.6	0.053	20
+Pomalidomide (CC-4047)	H2O	Beth	14	30	2	14	159	9	0	0.447	20
+Piperlongumine	50uM	Anonymous	14	112	6	14	88	6	0	0.53	20
+Pioglitazone HCl	10uM	jeffj	13.9	85	4	13.9	75	4	0	0.25	20
+Phenformin HCl	10uM	Milie	14	71	4	13.1	81	4	6.9	0.282	20
+Pentadecanoic Acid	1uM	Anonymous	16.1	78	6	16	74	6	0.6	0.923	20
+Pentadecanoic Acid	1uM	Anonymous	16.1	78	6	16	74	6	0.6	0.923	20
+Pentadecanoic Acid	1uM	Anonymous	16	90	6	16	74	6	0	0.809	20
+Pentadecanoic Acid	1uM	Anonymous	16	90	6	16	74	6	0	0.809	20
+Oxethazaine	10uM	Mr Wormboto	14.9	75	4	13	73	4	14.6	0.002	20
+Osthole	50uM	Estéfano Pinilla	18.3	44	3	17.8	53	3	2.8	0.151	20
+ORY-1001	50uM	Anonymous	20	73	5	18.8	60	5	6.4	0.696	20
+Oleic Acid	10uM	Contender	16	41	3	14.8	38	3	8.1	0.238	20
+Nordihydroguaiaretic acid	50uM	Rapamycin Longevity Lab	15.9	55	3	17.8	4	3	-10.7	0.754	20
+Nitazoxanide	10uM	Mr Wormboto	14.9	88	4	13.9	71	4	7.2	0.048	20
+Nilvadipine	10uM	JakLemur	17.9	66	4	12.9	85	4	38.8	< .001	20
+Nevirapine	10uM	Mr Wormboto	12	69	4	13.9	85	4	-13.7	0.536	20
+Naphazoline HCl	50uM	adssx	16.5	49	3	16.5	60	4	0	0.408	20
+Naltrexone HCl	50uM	Neilvas	17.8	53	3	17.8	54	3	0	0.33	20
+Naftopidil	10uM	Mr Wormboto	14.9	62	4	13.9	88	4	7.2	0.163	20
+NAD+	50uM	MKing	15	46	3	15.9	57	3	-5.7	0.998	20
+N-acetyl-D-Glucosamine	50uM	HealthierFriends.org	17.8	42	3	17.8	53	3	0	0.219	20
+Montelukast Sodium	10uM	starchild	13.9	44	3	17	60	3	-18.2	0.194	20
+MLN2238	50uM	The Macrobian	5.6	48	3	16.5	60	4	-66.1	< .001	20
+Miglitol	50uM	Anonymous	15.9	110	6	15.8	113	6	0.6	0.476	20
+Miconazole	50uM	The Macrobian	14.7	56	3	17.8	53	3	-17.4	0.175	20
+Metronidazole	50uM	Zack	17.1	99	6	17.1	94	6	0	0.484	20
+Metoprolol Succinate	H2O	Beth	13.9	45	2	13.9	37	2	0	0.886	20
+Metolazone	50uM	Anonymous	18.9	82	6	15.8	113	6	19.6	0.124	20
+Metformin HCl	50uM	Rapamycin Longevity Lab	16	38	3	16.5	60	4	-3	0.202	20
+Luteolin	10uM	Staffan Olsson	17.5	44	3	16.5	60	4	6.1	0.504	20
+Lutein	10uM	Petr Malik	16.5	44	3	17	60	3	-2.9	0.511	20
+Losartan	50uM	Ryan Brashear MD	17.8	55	3	17.8	54	3	0	0.606	20
+Loperamide HCl	10uM	The.Cole	13.1	75	4	13.1	62	4	0	0.642	20
+Lithium Citrate	50uM	adssx	16.5	49	3	16.5	60	4	0	0.05	20
+Lithium carbonate	50uM	adssx	14.5	43	3	16.5	45	4	-12.1	0.715	20
+Linoleic Acid	50uM	Matt Yousefzadeh	19.9	47	3	17.8	53	3	11.8	0.024	20
+Leflunomide	50uM	Dan R	18.8	62	3	17.8	54	3	5.6	0.351	20
+L-Theanine	10uM	Carl Lumma	17.9	51	5	17.3	52	5	3.5	0.739	20
+Kaempferol	10uM	Contender	15.9	45	3	17	60	3	-6.5	0.957	20
+Isradipine (Dynacirc)	10uM	adssx	16.5	37	3	16.5	60	4	0	0.674	20
+Irbesartan	50uM	Ryan Brashear MD	17.8	43	3	17.8	54	3	0	0.487	20
+Indapamide	50uM	adssx	16.5	31	3	16.5	60	4	0	0.934	20
+Hyoscyamine	50uM	Max Unfried	16.9	44	3	17.8	54	3	-5.1	0.936	20
+Hydrochlorothiazide	50uM	adssx	15.6	57	3	16.5	60	4	-5.5	0.719	20
+Hydralazine HCl	100uM	adssx	15.8	80	6	14	71	6	12.9	0.005	20
+Hyaluronic acid sodium salt	50uM	Flatlander Woman	15.6	45	3	16.5	45	4	-5.5	0.411	20
+Homoharringtonine	50uM	The Macrobian	17.8	75	3	17.8	53	3	0	0.353	20
+GSK2126458	10uM	Rapamycin Longevity Lab	27.8	41	3	17	45	3	63	< .001	20
+GSK2126458	50uM	Rapamycin Longevity Lab	24.8	30	3	18.8	4	3	32	< .001	20
+Glycine	50uM	Nate Sticco	15.8	85	6	14	71	6	12.9	0.101	20
+Glycine	50uM	Nate Sticco	15.8	85	6	14	71	6	12.9	0.101	20
+Glycine	50uM	Anonymous	15	85	6	15	66	6	0	0.46	20
+Glycine	50uM	Anonymous	15	85	6	15	66	6	0	0.46	20
+Furaltadone HCl	10uM	JJ	12.9	88	4	12.9	87	4	0	0.787	20
+Florfenicol	10uM	Josef P.	14.5	92	4	12.9	92	4	12.4	< .001	20
+Flecainide acetate	50uM	adssx	16.5	50	3	16.5	60	4	0	0.199	20
+Flavone	50uM	Anonymous	15.9	69	3	17.8	53	3	-10.7	0.071	20
+Fenbendazole	10uM	Mr Wormboto	11.9	58	3	17	34	3	-30	< .001	20
+Fargesin	50uM	Contender	16.4	60	3	16.5	60	4	-0.6	0.914	20
+Ezetimibe	10uM	adssx	17	57	3	17	60	3	0	0.751	20
+Ezetimibe	10uM	adssx	17	57	3	17	60	3	0	0.751	20
+Ezetimibe	10uM	Ben Nashman	13.9	46	3	17	34	3	-18.2	0.002	20
+Ezetimibe	10uM	Ben Nashman	13.9	46	3	17	34	3	-18.2	0.002	20
+Everolimus (RAD001)	10uM	Rapamycin Longevity Lab	15.9	52	3	17	60	3	-6.5	0.095	20
+Esomeprazole Sodium	10uM	Anonymous	13.1	67	4	13.1	77	4	0	0.627	20
+Enoxacin	10uM	Josef P.	14.9	72	4	13.1	58	3	13.7	0.001	20
+Empagliflozin (BI 10773)	50uM	adssx	15	55	3	17	60	3	-11.8	0.265	20
+Dutasteride	10uM	TM5614Hairmine	13.9	41	3	17	60	3	-18.2	0.017	20
+Doxycycline HCl	10uM	Rapamycin Longevity Lab	21.8	69	6	14	71	6	55.7	< .001	20
+Doxycycline HCl	10uM	Rapamycin Longevity Lab	21.8	69	6	14	71	6	55.7	< .001	20
+Doxycycline HCl	50uM	Staffan Olsson	19.6	51	3	16.5	60	4	18.8	0.128	20
+Doxycycline HCl	50uM	Staffan Olsson	19.6	51	3	16.5	60	4	18.8	0.128	20
+Doxapram HCl	10uM	Josef P.	13.1	77	4	13.1	55	3	0	0.584	20
+Diphenhydramine HCl	50uM	Alex Kesin	18.8	44	3	17.8	53	3	5.6	0.181	20
+Dimethyl Fumarate	50uM	Rapamycin News	15.9	40	3	17.8	53	3	-10.7	0.198	20
+Dihydromyricetin	50uM	Staffan Olsson	17.5	38	3	16.5	60	4	6.1	0.53	20
+Dehydroepiandrosterone (DHEA)	50uM	Dr.StevenWiniarski	17.8	79	3	17.8	54	3	0	0.797	20
+Dasatinib (BMS-354825)	50uM	Mr Wormboto	14.9	39	3	17	34	3	-12.4	0.027	20
+Daptomycin	50uM	Mr Wormboto	14.9	65	3	13.8	53	3	8	0.992	20
+Dapagliflozin	50uM	adssx	17	43	3	17	60	3	0	0.31	20
+Dapagliflozin	50uM	Anonymous	14.6	58	6	15.7	67	6	-7	0.845	20
+Daidzein	50uM	Anonymous	18.9	45	3	17.8	53	3	6.2	0.044	20
+D-Mannitol	50uM	Anonymous	19.9	96	6	15.8	113	6	25.9	< .001	20
+D-(-)-Salicin	50uM	matthost	17.8	89	6	16.7	87	6	6.6	0.478	20
+Cysteamine HCl	50uM	Estéfano Pinilla	18.9	58	3	17.8	54	3	6.2	0.364	20
+Curcumin	10uM	WiseAthletes Podcast	15	70	3	17	60	3	-11.8	0.195	20
+Coenzyme Q10	1nM	adssx	16.9	88	6	15.8	91	6	7	0.951	20
+Cobicistat	10uM	Mr Wormboto	13.9	77	4	13.9	87	4	0	0.478	20
+Ciprofibrate	10uM	schmiddl	13.9	79	4	13.9	74	4	0	0.176	20
+Chenodeoxycholic Acid	50uM	ChenNan	17.8	57	3	17.8	53	3	0	0.931	20
+Carvedilol	50uM	adssx	20.8	70	6	16.7	87	6	24.6	0.076	20
+Capsaicin	50uM	Andy Jones	18.9	42	3	17.8	54	3	6.2	0.3	20
+Capsaicin	50uM	Ferdinando.randisi	17.8	36	2	17.8	53	3	0	0.707	20
+Canagliflozin	50uM	adssx	15.9	60	3	17	60	3	-6.5	0.753	20
+Canagliflozin	50uM	Anonymous	14.6	55	6	15.7	67	6	-7	0.923	20
+Biotin	50uM	NKOAS	18.9	60	3	17.8	54	3	6.2	0.049	20
+Bimatoprost	50uM	adssx	15.6	49	3	16.5	60	4	-5.5	0.15	20
+Bilirubin	1uM	Petr Malik	17	54	3	17	60	3	0	0.828	20
+Berberine hydrochloride	50uM	Anonymous	20.1	61	6	18.1	89	6	11	0.003	20
+Berberine	50uM	AmyBKillen	20.8	48	3	17.8	53	3	16.9	< .001	20
+Benidipine HCl	10uM	Tithonus	15	64	4	13.1	71	4	14.5	< .001	20
+Baicalin	50uM	matthost	18.3	52	3	17.8	53	3	2.8	0.083	20
+Azelnidipine	10uM	Luis Arturo Galindo	14	67	4	13.1	71	4	6.9	0.029	20
+Azathioprine	50uM	adssx	19.8	66	6	14	71	6	41.4	< .001	20
+atorvastatin	50uM	adssx	17	44	3	16.5	60	4	3	0.785	20
+Astaxanthin	1uM	Flatlander Woman	18.9	56	3	17	60	3	11.2	0.53	20
+Aspirin (Acetylsalicylic acid)	50uM	kabelsalat	17.8	44	3	17.8	54	3	0	0.482	20
+Artesunate	50uM	Beth	14.9	53	3	17	34	3	-12.4	0.264	20
+Apigenin	50uM	Anonymous	15.3	30	2	17.8	53	3	-14	0.196	20
+Amoxicillin	50uM	Flatlander Woman	17.8	76	3	17.8	54	3	0	0.391	20
+Amlodipine	10uM	Anonymous	12	77	4	13.1	71	4	-8.4	0.554	20
+Amitriptyline HCl	50uM	Tracy Hughes	17.4	44	3	17	34	3	2.4	0.871	20
+Aminoglutethimide	10uM	Hazes	13.1	65	4	13.1	77	4	0	0.535	20
+Alpha-L-rhamnose	50uM	happyfunball	15.7	55	6	15.7	52	6	0	0.829	20
+Allantoin	50uM	Rapamycin Longevity Lab	16.5	43	3	16.5	45	4	0	0.484	20
+Albendazole Oxide	50uM	Mr Wormboto	11	86	3	17.9	63	3	-38.5	< .001	20
+AICAR	50uM	Mr Wormboto	16	44	3	17	34	3	-5.9	0.829	20
+Acarbose	50uM	JJ	17.8	63	3	17.8	54	3	0	0.612	20
+ABT-263 (Navitoclax)	10uM	Anonymous	15	60	3	17	60	3	-11.8	0.045	20
+Abiraterone acetate	10uM	Spudnut	15.9	52	3	15.9	57	3	0	0.805	20
+5-Azacytidine	50uM	Edward	18.9	53	3	17.8	54	3	6.2	0.201	20
+(-)-Epigallocatechin gallate	1uM	Anonymous	15	96	6	14	88	6	7.1	0.907	20

@@ -1,0 +1,5 @@
+[
+  { "compound": "Rapamycin",  "grade": "Moderate", "notes": "Multiple mammal LS↑; dog trial; human pilot ongoing" },
+  { "compound": "GlyNAC",     "grade": "Moderate", "notes": "2 human RCT biomarker studies" },
+  { "compound": "Metformin",  "grade": "Low",      "notes": "TAME pilot; mixed epi data" }
+]
