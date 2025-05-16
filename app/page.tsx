@@ -356,17 +356,7 @@ export default function Home() {
           <span className="w-8 text-right">{deltaMin}</span>
         </label>
 
-        <select
-          value={classFilter}
-          onChange={(e) => setClassFilter(e.target.value)}
-          className="border rounded px-2 py-1 text-sm"
-        >
-          {classOptions.map((c, i) => (
-            <option key={`opt-${i}`} value={c}>
-              {c || '—'}
-            </option>
-          ))}
-        </select>
+       
 
         <input
           className="border rounded px-2 py-1 text-sm w-64"
@@ -411,7 +401,7 @@ export default function Home() {
   <br />
   Data: DrugAge v4 (CC-BY), NIH ITP 2024, Orba Biomedical TSV • Code &amp; dataset MIT-licensed on{' '}
   <a
-    href="https://github.com/yourrepo"
+    href="https://github.com/KhosrowII/rapamycin-wiki"
     className="underline text-emerald-700"
     target="_blank"
   >
