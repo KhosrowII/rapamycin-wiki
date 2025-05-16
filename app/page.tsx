@@ -328,7 +328,7 @@ export default function Home() {
         {[
           ['Mammals only', 'mammal'],
           ['ITP only', 'itp'],
-          ['Orba worm', 'orba'],
+          ['Ora worm', 'orba'],
         ].map(([lbl, key]) => (
           <label key={key} className="flex items-center gap-2 text-sm">
             <input
@@ -399,7 +399,7 @@ export default function Home() {
   {data.length} {mode === 'signal' ? 'compounds' : 'study rows'} • last
   build {new Date().toLocaleDateString()}
   <br />
-  Data: DrugAge v4 (CC-BY), NIH ITP 2024, Orba Biomedical TSV • Code &amp; dataset MIT-licensed on{' '}
+  Data: DrugAge v4 (CC-BY), NIH ITP 2024, Ora Biomedical TSV • Code &amp; dataset MIT-licensed on{' '}
   <a
     href="https://github.com/KhosrowII/rapamycin-wiki"
     className="underline text-emerald-700"
