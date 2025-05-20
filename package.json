@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "postinstall": "prisma generate",
-    "prebuild": "python scripts/fetch_trials.py",
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+  "postinstall": "prisma generate",
+  "prebuild": "node scripts/fetch_trials.js",
+  "dev": "next dev --turbopack",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint"
+},
   "dependencies": {
     "@fullcalendar/daygrid": "^6.1.17",
     "@fullcalendar/react": "^6.1.17",
@@ -22,6 +22,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "recharts": "^2.15.3",
+    "sqlite3": "^5.1.7",
     "tailwind-merge": "^3.3.0"
   },
   "devDependencies": {
