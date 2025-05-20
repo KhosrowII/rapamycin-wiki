@@ -1,7 +1,7 @@
 // prisma/schema.prisma
 datasource db {
   provider = "sqlite"
-  url      = "file:../db.sqlite"   // one level up from /prisma
+  url      = "file:./db.sqlite"   // one level up from /prisma
 }
 
 generator client {
