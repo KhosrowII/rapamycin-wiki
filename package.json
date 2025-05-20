@@ -5,9 +5,12 @@
   "scripts": {
   "postinstall": "prisma generate",
   "prebuild": "node scripts/fetch_trials.js",
+  "build": "next build --build-dir .next && node scripts/copy-db.mjs",
   "dev": "next dev --turbopack",
-  "build": "next build && node scripts/copy-db.mjs",
-  "start": "next start"},
+  "start": "next start",
+  "lint": "next lint"
+}
+,
   "dependencies": {
     "@fullcalendar/daygrid": "^6.1.17",
     "@fullcalendar/react": "^6.1.17",
