@@ -4,7 +4,8 @@ import path from "path";
 import sqlite3 from "sqlite3";
 
 const BASE = "https://clinicaltrials.gov/api/v2/studies";
-const DB_PATH = path.resolve(process.cwd(), "db.sqlite");
+// always write to <project-root>/db.sqlite
+const DB_PATH = path.join(path.dirname(new URL(import.meta.url).pathname), "..", "db.sqlite");
 const KW_PATH = path.resolve(process.cwd(), "scripts", "keywords.csv");
 
 async function fetchStudies(keyword) {
