@@ -5,7 +5,7 @@ import path from "path";
 // Vercel’s build root is /vercel/path0 (your repo root)
 // but your Next.js project (and db.sqlite) sits in "lifespan-ui2/"
 const projectDir = path.resolve(process.cwd(), "lifespan-ui2");
-const src = path.join(projectDir, "db.sqlite");
+const src = path.resolve("db.sqlite");    // db sits next to package.json
 const destDir = path.resolve(
   projectDir,
   ".next",
