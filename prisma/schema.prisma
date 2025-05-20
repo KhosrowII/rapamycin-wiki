@@ -1,0 +1,19 @@
+// prisma/schema.prisma
+datasource db {
+  provider = "sqlite"
+  url      = "file:../db.sqlite"   // one level up from /prisma
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Trial {
+  nct     String   @id
+  keyword String
+  title   String
+  start   String?      // ← was DateTime
+  status  String
+
+  @@map("Trial")       // if you kept the capital-T table name
+}
