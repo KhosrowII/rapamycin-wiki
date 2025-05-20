@@ -2,13 +2,16 @@
 import fs from "fs";
 import path from "path";
 import sqlite3 from "sqlite3";
+import { fileURLToPath } from "url";
 
 const BASE = "https://clinicaltrials.gov/api/v2/studies";
 
-// <project-root>/db.sqlite   (works on Windows & Linux)
-const PROJECT_ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
-const DB_PATH      = path.join(PROJECT_ROOT, "db.sqlite");
-const KW_PATH      = path.join(PROJECT_ROOT, "scripts", "keywords.csv");
+// absolute path to <project-root>
+const __filename   = fileURLToPath(import.meta.url);
+const PROJECT_ROOT = path.resolve(path.dirname(__filename), "..");
+
+const DB_PATH = path.join(PROJECT_ROOT, "db.sqlite");
+const KW_PATH = path.join(PROJECT_ROOT, "scripts", "keywords.csv");
 
 async function fetchStudies(keyword) {
   const params = new URLSearchParams({
@@ -18,13 +21,17 @@ async function fetchStudies(keyword) {
     format: "json",
   });
   const res = await fetch(`${BASE}?${params}`);
-  res.raiseForStatus?.();
   const json = await res.json();
   return json.studies || [];
 }
 
 (async () => {
-  // read keywords
+  // ensure scripts/keywords.csv exists
+  if (!fs.existsSync(KW_PATH)) {
+    console.error("❌  keywords.csv missing at", KW_PATH);
+    process.exit(1);
+  }
+
   const keywords = fs.readFileSync(KW_PATH, "utf-8")
     .split(/\r?\n/)
     .filter(Boolean);
@@ -45,7 +52,7 @@ async function fetchStudies(keyword) {
   );
 
   // upsert each study
-  const insertStmt = db.prepare(
+  const stmt = db.prepare(
     `INSERT OR REPLACE INTO trials (nct, keyword, title, start, status)
      VALUES (?, ?, ?, ?, ?)`
   );
@@ -53,22 +60,16 @@ async function fetchStudies(keyword) {
   for (const kw of keywords) {
     const studies = await fetchStudies(kw);
     for (const s of studies) {
-      const mod = s.protocolSection;
-      const idm = mod.identificationModule;
-      const stm = mod.statusModule;
-      const raw = stm.startDateStruct?.date;
+      const mod  = s.protocolSection;
+      const id   = mod.identificationModule;
+      const stat = mod.statusModule;
+      const raw  = stat.startDateStruct?.date;
       const start = raw?.length === 7 ? raw + "-01" : raw;
-      insertStmt.run(
-        idm.nctId,
-        kw,
-        idm.briefTitle || "—",
-        start,
-        stm.overallStatus
-      );
+      stmt.run(id.nctId, kw, id.briefTitle || "—", start, stat.overallStatus);
     }
   }
 
-  insertStmt.finalize();
+  stmt.finalize();
   db.close();
-  console.log("✅  fetch_trials.js: db.sqlite refreshed");
+  console.log("✅  fetch_trials.js: db.sqlite refreshed at", DB_PATH);
 })();
