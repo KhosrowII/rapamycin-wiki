@@ -40,20 +40,20 @@ async function fetchStudies(keyword) {
   const db = new sqlite3.Database(DB_PATH);
   await new Promise((res, rej) =>
     db.run(
-      `CREATE TABLE IF NOT EXISTS trials (
-         nct     TEXT PRIMARY KEY,
-         keyword TEXT,
-         title   TEXT,
-         start   TEXT,
-         status  TEXT
-       )`,
+         `CREATE TABLE IF NOT EXISTS Trial (
+              nct     TEXT PRIMARY KEY,
+              keyword TEXT,
+              title   TEXT,
+              start   TEXT,
+              status  TEXT
+            )`,
+        
       (err) => (err ? rej(err) : res())
     )
   );
 
   // upsert each study
-  const stmt = db.prepare(
-    `INSERT OR REPLACE INTO trials (nct, keyword, title, start, status)
+  const stmt = db.prepare(`INSERT OR REPLACE INTO Trial (nct, keyword, title, start, status)
      VALUES (?, ?, ?, ?, ?)`
   );
 
