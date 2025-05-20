@@ -7,9 +7,7 @@
   "prebuild": "node scripts/fetch_trials.js",
   "dev": "next dev --turbopack",
   "build": "next build && node scripts/copy-db.mjs",
-  "start": "next start",
-  "lint": "next lint"
-},
+  "start": "next start"},
   "dependencies": {
     "@fullcalendar/daygrid": "^6.1.17",
     "@fullcalendar/react": "^6.1.17",
