@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "postinstall": "prisma generate",
+    "prebuild": "python scripts/fetch_trials.py",
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
