@@ -305,6 +305,37 @@ export default function Home() {
       } max-w-6xl mx-auto p-6 space-y-6`}
     >
       {/* Header */}
+      {/* Header */}
+<div className="flex items-center gap-4">
+  <h1 className="text-3xl font-bold text-emerald-700 dark:text-emerald-400">
+    Longevity Leaderboard
+  </h1>
+
+  {/* switch modes */}
+  <button
+    onClick={() => setMode(mode === 'signal' ? 'recent' : 'signal')}
+    className="text-xs border rounded px-2 py-1"
+  >
+    {mode === 'signal' ? 'Newest' : 'Signal'}
+  </button>
+
+  {/* link to calendar */}
+  <a
+    href="/trials"
+    className="text-xs border rounded px-2 py-1 hover:bg-emerald-50 dark:hover:bg-zinc-700"
+  >
+    Trials ⇢
+  </a>
+
+  {/* light/dark */}
+  <button
+    onClick={() => setDark(!dark)}
+    className="ml-auto text-xs border rounded px-2 py-1"
+  >
+    {dark ? 'light' : 'dark'}
+  </button>
+</div>
+
       <div className="flex items-center gap-4">
         <h1 className="text-3xl font-bold text-emerald-700 dark:text-emerald-400">
           Longevity Leaderboard
