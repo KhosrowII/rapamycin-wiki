@@ -2,23 +2,17 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 
-const __dirname    = path.dirname(fileURLToPath(import.meta.url));
-const PROJECT_ROOT = path.resolve(__dirname, "..");
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const ROOT      = path.resolve(__dirname, "..");                 // repo root
+const STANDALONE = path.join(ROOT, ".next", "standalone");       // lambda root
 
-const src = path.join(PROJECT_ROOT, "db.sqlite");
+// 1. ensure standalone dir exists
+fs.mkdirSync(STANDALONE, { recursive: true });
 
-// prefer .next/standalone; fall back to .next if standalone doesn’t exist
-let destDir = path.join(PROJECT_ROOT, ".next", "standalone");
-if (!fs.existsSync(destDir)) destDir = path.join(PROJECT_ROOT, ".next");
+// 2. copy db.sqlite right into the lambda root
+fs.copyFileSync(
+  path.join(ROOT, "db.sqlite"),
+  path.join(STANDALONE, "db.sqlite")
+);
 
-fs.mkdirSync(destDir, { recursive: true });   // ensure directory exists
-
-const dest = path.join(destDir, "db.sqlite");
-
-if (!fs.existsSync(src)) {
-  console.error("❌  db.sqlite not found at", src);
-  process.exit(1);
-}
-
-fs.copyFileSync(src, dest);
-console.log("✅  copied db.sqlite into", destDir);
+console.log("✅  copied db.sqlite into", STANDALONE);
