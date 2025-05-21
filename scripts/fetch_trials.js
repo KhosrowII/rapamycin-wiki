@@ -71,7 +71,14 @@ const params = new URLSearchParams({
     }
   }
 
-  stmt.finalize();
+    stmt.finalize(err => {
+        if (err) throw err;
+        db.close();
+        console.log("✅  fetch_trials.js: db.sqlite refreshed at", DB_PATH);
+        db.get("SELECT COUNT(*) AS n FROM Trial", (_, r) =>
+          console.log("📊  rows after fetch =", r?.n)
+        );
+     });
   db.close();
   console.log("✅  fetch_trials.js: db.sqlite refreshed at", DB_PATH);
 })();

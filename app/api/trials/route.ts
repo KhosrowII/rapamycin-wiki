@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { PrismaClient } from "@prisma/client";
+console.log("▶︎ CWD at runtime:", process.cwd());   // ← add this
 
 export async function GET(req: Request) {
   // create the client only when the route is actually executed

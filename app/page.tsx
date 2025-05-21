@@ -336,23 +336,6 @@ export default function Home() {
   </button>
 </div>
 
-      <div className="flex items-center gap-4">
-        <h1 className="text-3xl font-bold text-emerald-700 dark:text-emerald-400">
-          Longevity Leaderboard
-        </h1>
-        <button
-          onClick={() => setMode(mode === 'signal' ? 'recent' : 'signal')}
-          className="text-xs border rounded px-2 py-1"
-        >
-          {mode === 'signal' ? 'Newest' : 'Signal'}
-        </button>
-        <button
-          onClick={() => setDark(!dark)}
-          className="ml-auto text-xs border rounded px-2 py-1"
-        >
-          {dark ? 'light' : 'dark'}
-        </button>
-      </div>
 
       {/* Controls */}
       <div className="flex flex-wrap items-center gap-6">
