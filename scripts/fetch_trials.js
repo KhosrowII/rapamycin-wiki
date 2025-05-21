@@ -14,12 +14,14 @@ const DB_PATH = path.join(PROJECT_ROOT, "db.sqlite");
 const KW_PATH = path.join(PROJECT_ROOT, "scripts", "keywords.csv");
 
 async function fetchStudies(keyword) {
-  const params = new URLSearchParams({
-    "query.intr": keyword,
-    "filter.overallStatus": "RECRUITING|NOT_YET_RECRUITING",
-    pageSize: "200",
-    format: "json",
-  });
+    // scripts/fetch_trials.js   ← keep this
+const params = new URLSearchParams({
+  "query.intr": keyword,
+  "filter.overallStatus": "RECRUITING|NOT_YET_RECRUITING",
+  pageSize: "200",
+  format: "json",
+});
+
   const res = await fetch(`${BASE}?${params}`);
   const json = await res.json();
   return json.studies || [];
