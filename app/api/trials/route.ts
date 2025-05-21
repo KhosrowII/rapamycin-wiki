@@ -5,6 +5,8 @@ console.log("▶︎ CWD at runtime:", process.cwd());   // ← add this
 export async function GET(req: Request) {
   // create the client only when the route is actually executed
   const prisma = new PrismaClient();
+  const total = await prisma.trial.count();
+  console.log("▶︎ rows Prisma sees =", total);  
 
   const params = new URL(req.url).searchParams;
   const kw = params.get("keyword");

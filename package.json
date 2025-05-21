@@ -4,7 +4,7 @@
   "private": true,
 "scripts": {
   "postinstall": "prisma generate",
-  "prebuild": "node scripts/fetch_trials.js && npx prisma db push --skip-generate",
+  "prebuild": "node scripts/fetch_trials.js",     
   "build": "next build && node scripts/copy-db.mjs",
   "dev": "next dev --turbopack",
   "start": "next start",
