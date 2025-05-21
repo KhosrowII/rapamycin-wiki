@@ -1,8 +1,9 @@
 // prisma/schema.prisma
 datasource db {
   provider = "sqlite"
-  url      = "file:./db.sqlite"     // ← replace env(...) with this
+  url      = "file:./db.sqlite?mode=ro"   // ← add ?mode=ro
 }
+
 
 
 
