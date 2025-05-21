@@ -1,8 +1,9 @@
 // prisma/schema.prisma
 datasource db {
   provider = "sqlite"
-  url      = "file:./db.sqlite"    // ← delete env() wrapper
+  url      = "file:./db.sqlite"     // ← replace env(...) with this
 }
+
 
 
 generator client {
