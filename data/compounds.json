@@ -530,6 +530,27 @@
     "grade": "Very Low"
   },
   {
+    "id": 4,
+    "compound": "3hb",
+    "studies": [
+      {
+        "compound": "3hb",
+        "delta": 51.3,
+        "model": "Mice",
+        "pmid": "40431385",
+        "year": 2025
+      }
+    ],
+    "n": 1,
+    "mean_delta": 51.3,
+    "best_delta": 51.3,
+    "grade": "Very Low",
+    "class": "Unclassified.",
+    "model": "Mice",
+    "itp": "",
+    "is_orba": false
+  },
+  {
     "compound": "Taxifolin",
     "mean_delta": 51.0,
     "best_delta": 51.0,
@@ -2694,9 +2715,16 @@
         "model": "Mice",
         "pmid": "39890935",
         "year": 2025
+      },
+      {
+        "compound": "Ginkgolide",
+        "delta": 30.0,
+        "model": "Mice",
+        "pmid": "39890935",
+        "year": 2025
       }
     ],
-    "n": 1,
+    "n": 2,
     "mean_delta": 30.0,
     "best_delta": 30.0,
     "grade": "Very Low",
@@ -3391,9 +3419,16 @@
         "model": "Caenorhabditis",
         "pmid": "39938659",
         "year": 2025
+      },
+      {
+        "compound": "Kinsenoside",
+        "delta": 26.3,
+        "model": "Caenorhabditis",
+        "pmid": "39938659",
+        "year": 2025
       }
     ],
-    "n": 1,
+    "n": 2,
     "mean_delta": 26.3,
     "best_delta": 26.3,
     "grade": "Very Low",
